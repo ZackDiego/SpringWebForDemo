@@ -25,6 +25,6 @@ public class DemoControllerTest {
         when(demoService.greet()).thenReturn("Hello, World!");
 
         String greeting = demoController.greet();
-        assertEquals("Hello, World!", greeting);
+        assertEquals("Hello, World! let's try failing", greeting);
     }
 }
